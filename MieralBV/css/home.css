@@ -1,0 +1,156 @@
+.topanchor{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.actief{
+    font-weight: bold;
+}
+
+.nav-link{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.card-title{
+    background-color: red;
+    /* border-radius: 50px; */
+    margin-left: 85px;
+    margin-right: 85px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.kaart{
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+    border-top: 2px solid red;
+    border-bottom: 2px solid red;
+    border-radius: 5px;
+}
+
+hr{
+    border: none; 
+    background: red; 
+    margin-top: 100px;
+    margin-bottom: 100px; 
+}
+.container{
+    background-color: #ebf0fc;
+}
+
+nav{
+    border: none; 
+    border-bottom: 2px solid red; 
+    background-color: white;
+}
+
+#outline{
+    background-color: #ebf0fc;
+}
+
+#contactline{
+    background-color: #cd5c5c;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 5px;
+}
+
+#contact{
+    margin-left: 10px;
+}
+
+.jumbotron{
+    background-image: url("/img/jumbotron.jpg");
+    background-size: cover;   
+    background-position: center;
+    height: 500px;
+    padding-bottom: 10px;
+    color: 1px red;
+}
+
+.jumbotronbanner{
+    background-image: url("/img/jumbotron.jpg");
+    background-size: cover;   
+    background-position: center;
+    height: 500px;
+    padding-bottom: 10px;
+    color: #ebf0fc;
+    box-shadow: inset 0 0 0 1000px rgba(0, 4, 255, 0.363);
+    text-decoration: solid;
+}
+
+/* Flipped */
+.jumbotronheadflipped{
+    background-image: url("/img/head.png");
+    background-size: cover;   
+    background-position: center;
+    height: 50px;
+    transform: scaleY(-1);
+    padding-top: 50px;
+}
+/* Normal */
+.jumbotronhead{
+    background-image: url("/img/head.png");
+    background-size: cover;   
+    background-position: center;
+    height: 50px;
+    transform: rotateY(180deg);
+    margin-bottom: 100px;
+    padding-top: 10px;
+}
+
+
+/* Normal */
+.jumbotronfoot{
+    background-image: url("/img/foot.png");
+    background-size: cover;   
+    background-position: center;
+    height: 50px;
+    transform: rotateY(180deg);
+    padding-top: 50px;
+}
+
+.jumbotronbottom{
+    background-image: url("/img/jumbotron2.jpg");
+    background-size: uto;   
+    background-position: center;
+    border-bottom: 3px solid #2d2953;
+    height: 500px;
+    padding-bottom: 10px;
+    opacity: 100%;
+}
+
+.bottomtron{
+    color: white;
+    background-color: #4c468a;
+    border: 2px solid red;
+    border-radius: 3px;
+    padding-bottom: 10px;
+    background: #ED213A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #93291E, #ED213A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #93291E, #ED213A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.vraagbutton{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    margin-bottom: 25px;
+}
+
+footer{
+    background: #333333;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #dd1818, #333333);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #dd1818, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    padding-top: 10px;
+    padding-bottom: 2px;
+    color: #000000;
+}
+
+#footje{
+    margin-left: 10px;
+}
